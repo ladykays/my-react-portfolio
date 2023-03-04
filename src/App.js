@@ -1,4 +1,4 @@
-import React from 'react';
+import Header from "./layouts/Header/Header"
 
 //import { Grid, Cell,Menu,MenuItem } from "react-foundation";
 import './App.css';
@@ -6,7 +6,9 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      Hello World
+      <>
+        <Header />
+      </>
     </div>
   );
 }
