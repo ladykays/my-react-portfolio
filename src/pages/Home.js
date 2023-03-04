@@ -1,12 +1,11 @@
 //import Header from "../layouts/Header/Header";
 
-//my custom style for the header section
-//import "./style.css";
+//my custom style for the homepage
+//import "../index.css";
 
 function Home() {
   return (
     <>
-      <h1>Home</h1>
     </>
   )
 }
