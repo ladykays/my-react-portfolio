@@ -1,0 +1,30 @@
+container{
+  padding: 2rem;
+  max-width: 100%;
+}
+.callout {
+  border: none;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* All direct child elements of form */
+form > * {
+  padding: 7px 10px;
+  margin-bottom: 7px;
+  border: 1px solid #f30606;
+  outline: none; /* so as not to get a blue outline when we click on the input fields */
+}
+input.btn {
+  background-color: lightseagreen;
+  cursor:grab,
+}
+.connect {
+  text-decoration: none;
+  font-size: 20px;
+}
