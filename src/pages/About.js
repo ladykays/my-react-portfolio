@@ -21,6 +21,7 @@ function About() {
         <i class="fa-brands fa-github"></i>
         <i class="fa-brands fa-node"></i>
         <i class="fa-solid fa-code"></i>
+        <i class="fa-solid fa-terminal"></i>
 
         <h5>Others</h5>
           <ul>
