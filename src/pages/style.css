@@ -1,3 +1,5 @@
+
+/* Styles for the About page */
 container{
   padding: 2rem;
   max-width: 100%;
@@ -6,6 +8,7 @@ container{
   border: none;
 }
 
+/* Styles for the contact page */
 form {
   width: 50%;
   display: flex;
@@ -17,7 +20,7 @@ form {
 form > * {
   padding: 7px 10px;
   margin-bottom: 7px;
-  border: 1px solid #f30606;
+  border: 1px solid #ccc;
   outline: none; /* so as not to get a blue outline when we click on the input fields */
 }
 input.btn {
