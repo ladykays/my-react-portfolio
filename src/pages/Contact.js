@@ -1,4 +1,5 @@
 import { Callout } from "react-foundation";
+import Footer from "../layouts/Footer/Footer";
 import { useState } from "react"; 
 import "./style.css";
 
@@ -16,12 +17,12 @@ const styles = {
   callout: {
     width: "40%",
     backgroudColor: "gray",
-    padding: "0 20px",   
+    padding: "20px "   
   },
   success: {
     textAlign: "center",
     color: "lightseagreen",
-    marginTop: "10px",
+    padding: "10px 0",
   },
 };
 
@@ -63,6 +64,12 @@ function Contact() {
       .then(res => res.json()) 
       .then(data => {
         setSuccess(true);
+        setFormData({
+          ...formData,
+          name: "",
+          email: "",
+          message: "",
+        });
 
         // Makes the info about the success of the submission disappear after 3 seconds
         setTimeout(() => {
@@ -78,10 +85,33 @@ function Contact() {
 
       <div className="container" style={styles.container}>
         <form onSubmit={handleFormSubmit}>
-          <input name="name" onChange={handleChange} type="text" placeholder="Please enter your Name" />
-          <input name="email" onChange={handleChange} type="text" placeholder="Enter your Email Address" />
-          <textarea name="message" onChange={handleChange} placeholder="Enter your Message..." cols="30" rows="10"></textarea>
-          <input type="submit" class="button btn" value="Submit" />
+          <input 
+            name="name" 
+            value={formData.name} 
+            onChange={handleChange} 
+            type="text" 
+            placeholder="Please enter your Name" 
+          />
+          <input 
+            name="email" 
+            value={formData.email}
+            onChange={handleChange} 
+            type="text" 
+            placeholder="Enter your Email Address" 
+          />
+          <textarea 
+            name="message" 
+            value={formData.message}
+            onChange={handleChange} 
+            placeholder="Enter your Message..." 
+            cols="30" 
+            rows="10">
+          </textarea>
+          <input 
+            type="submit" 
+            class="button btn" 
+            value="Submit" 
+          />
 
         </form>
         
@@ -106,6 +136,8 @@ function Contact() {
         </Callout> 
       </div> 
       {success && <p style={styles.success}>Form submitted successfully!</p>}
+
+      <Footer />
     </> 
   )
 }

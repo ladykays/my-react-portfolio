@@ -3,7 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import { useLocation } from "react-router-dom";
 
 //my custom style for the header section
-import "./style.css";
+import "./header.css";
 
 
 
