@@ -1,4 +1,4 @@
-import { Callout } from "react-foundation";
+//import { Callout } from "react-foundation";
 import Footer from "../layouts/Footer/Footer";
 import { useState } from "react"; 
 import "./style.css";
@@ -116,7 +116,7 @@ function Contact() {
         </form>
         
 
-        <Callout className="callout small" style={styles.callout}>
+        <div className="callout small" style={styles.callout}>
           <h3>Connect with me...</h3>
           <p>
             <a href="mailto: ladykerrion@yahoo.com" className="connect">
@@ -133,7 +133,7 @@ function Contact() {
               <i className="fa-brands fa-linkedin"></i> Linkdin
             </a>
           </p>
-        </Callout> 
+        </div> 
       </div> 
       {success && <p style={styles.success}>Form submitted successfully!</p>}
 
