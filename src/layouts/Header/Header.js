@@ -24,9 +24,7 @@ function Header() {
       )}
       {/* If not on the homepage, load the hero section without text */}
       {!isHomePage && <div className="hero-section other"></div>}
-    </>
-    
-    
+    </>  
   )
 }
 

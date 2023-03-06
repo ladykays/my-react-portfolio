@@ -32,7 +32,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import "foundation-sites/dist/css/foundation.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css'
+//import "foundation-sites/dist/css/foundation.min.css";
 //This is a component based helper package 
 import { BrowserRouter } from 'react-router-dom' //deconstruct the component
 

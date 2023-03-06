@@ -1,4 +1,3 @@
-//import { Grid, Cell,Menu,MenuItem } from "react-foundation";
 //my custom style for the footer section
 import "./footer.css";
 

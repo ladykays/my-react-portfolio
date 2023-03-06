@@ -4,26 +4,28 @@ import Work from "../../pages/Work";
 import About from "../../pages/About";
 import Contact from "../../pages/Contact";
 import NavLinks from "./NavLinks.js";
-import "./style.css"
+import "./style.css";
 
 class NavBar extends Component {
   state = {
-    currentPage: "Home"
+    currentPage: "Home",
   };
 
-  handlePageChange = page => {
+  handlePageChange = (page) => {
     this.setState({ currentPage: page });
   };
 
   handlePageView = (page) => {
     //Using ternary operator
-    return (
-      this.state.currentPage === "Home" ? <Home /> :
-      this.state.currentPage === "Work" ? <Work /> :
-      this.state.currentPage === "About" ? <About /> :
-      this.state.currentPage === "Contact" ? <Contact /> :
-      null 
-    );
+    return this.state.currentPage === "Home" ? (
+      <Home />
+    ) : this.state.currentPage === "Work" ? (
+      <Work />
+    ) : this.state.currentPage === "About" ? (
+      <About />
+    ) : this.state.currentPage === "Contact" ? (
+      <Contact />
+    ) : null;
   };
 
   render() {
@@ -34,7 +36,7 @@ class NavBar extends Component {
           handlePageChange={this.handlePageChange}
         />
         {/* This renders the page for the link clicked */}
-        { this.handlePageView() }
+        {this.handlePageView()}
       </div>
     );
   }
