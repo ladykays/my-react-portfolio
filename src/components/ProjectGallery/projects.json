@@ -1,50 +1,50 @@
 [
   {
     "id": "1",
-    "title": "Project 1",
-    "description": "Project description",
-    "deployedURL": "",
-    "githubRepo": "",
-    "image": ""
+    "title": "Weather Dashboard",
+    "description": "This weather dashboard web app shows current weather and 5-day forecast for a city specified by a user. It stores user search history, has an option to delete history and has a reasponsive UI.",
+    "deployedURL": "https://ladykays.github.io/weather-dashboard/",
+    "githubRepo": "https://github.com/ladykays/weather-dashboard",
+    "image": "./assets/images/weather-dashboard.png"
   },
   {
     "id": "2",
-    "title": "Project 2",
-    "description": "Project description",
-    "deployedURL": "",
-    "githubRepo": "",
-    "image": ""
+    "title": "Team Profile Generator",
+    "description": "This is a Node CLI app which generates an HTML file with information about a software engineering team, that includes a manager, any number of engineers, and interns. The app showcases OOP and TDD using Jest.",
+    "deployedURL": "https://drive.google.com/file/d/1BWwmQdLfkAXyHmobS2018yoWewx1jocV/view",
+    "githubRepo": "https://github.com/ladykays/team-profile-generator",
+    "image": "./assets/images/team-generator.png"
   },
   {
     "id": "3",
-    "title": "Project 3",
-    "description": "Project description",
-    "deployedURL": "",
-    "githubRepo": "",
-    "image": ""
+    "title": "Weather Pourcast",
+    "description": "I worked as part of a team to create this web app that provides users with a unique experience by offering cocktail recommendations based on the temperature at their location.",
+    "deployedURL": "https://ladykays.github.io/Weather-Pourcast/",
+    "githubRepo": "https://github.com/ladykays/Weather-Pourcast",
+    "image": "./assets/images/weather-pourcast.png"
   },
   {
     "id": "4",
-    "title": "Project 4",
-    "description": "Project description",
-    "deployedURL": "",
-    "githubRepo": "",
-    "image": ""
+    "title": "Password Generator",
+    "description": "This password generator app creates a random string based on user-selected criteria and runs in a browser. The app uses JavaScript to dynamically update HTML and CSS, with a responsive and polished user interface.",
+    "deployedURL": "https://ladykays.github.io/password-generator/",
+    "githubRepo": "https://github.com/ladykays/password-generator",
+    "image": "./assets/images/password-generator.png"
   },
   {
     "id": "5",
-    "title": "Project 5",
-    "description": "Project description",
-    "deployedURL": "",
-    "githubRepo": "",
-    "image": ""
+    "title": "Work Day Scheduler",
+    "description": "This web app enables users to save their daily events to local storage and retain them after page reload. It uses jQuery and Moment.js for date and time functionality and features dynamically updated HTML and CSS.",
+    "deployedURL": "https://ladykays.github.io/work-day-scehduler/",
+    "githubRepo": "https://github.com/ladykays/work-day-scehduler",
+    "image": "./assets/images/work-day.png"
   },
   {
     "id": "6",
-    "title": "Project 6",
-    "description": "Project description",
-    "deployedURL": "",
-    "githubRepo": "",
-    "image": ""
-  }
+    "title": "JavaScript Fundermentals Quiz",
+    "description": "This quiz app tests users' knowledge of JavaScript fundamentals with timed multiple choice questions. It stores high scores to local storage and features a responsive UI powered by dynamically updated HTML and CSS, all running in a browser.",
+    "deployedURL": "https://ladykays.github.io/javascript-fundermentals-quiz",
+    "githubRepo": "https://github.com/ladykays/javascript-fundermentals-quiz",
+    "image": "./assets/images/quiz.png"
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 ]

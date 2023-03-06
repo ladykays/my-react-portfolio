@@ -1,27 +1,44 @@
 import React from "react";
+import { CardImg } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+import "./project.css";
 
 function Project(props) {
   return (
-    <Row xs={1} md={2} lg={3} className="g-4">
-      {Array.from({ length: 6 }).map((_, idx) => (
-        <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <Col>
+      <Card className="h-100 border-0 m3 p-2 shadow" >
+        {/* <CardImg variant="top" src={props.image} /> */}
+        <CardImg 
+          variant="top" 
+          src={process.env.PUBLIC_URL + props.image} 
+          /> {/* Stored images in "public" folder so as to serve the images directly to the browser as it wouldn't work without this  */}
+        <Card.Body>
+          <Card.Title>{props.title}</Card.Title>
+          <Card.Text>{props.description}</Card.Text>
+          <Button 
+            className="projectBtn deployedBtn"
+            variant="warning" 
+            size="sm"
+            href={props.deployedURL} 
+            target={"_blank"}
+            > 
+              Deployed Site
+          </Button>
+          <Button 
+            className="projectBtn repoBtn"
+            variant="info" 
+            size="sm"
+            href={props.githubRepo} 
+            target={"_blank"}
+            > 
+              GitHub Repository
+          </Button>
+          
+        </Card.Body>
+      </Card>
+    </Col>
   )
 }
 
