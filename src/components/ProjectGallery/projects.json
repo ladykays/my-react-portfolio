@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "title": "Project 1",
+    "title": "Weather Dashboard",
     "description": "Project description",
     "deployedURL": "",
     "githubRepo": "",
-    "image": ""
+    "image": "assets/images/weather-dashboard.png"
   },
   {
     "id": "2",
