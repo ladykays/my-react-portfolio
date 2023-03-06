@@ -10,7 +10,7 @@
   {
     "id": "2",
     "title": "Team Profile Generator",
-    "description": "This is a Node CLI app which generates an HTML file with information about a software engineering team, that includes a manager, any number of engineers, and interns. The app showcases OOP and TDD using Jest.",
+    "description": "This is a Node CLI app which generates an HTML file with information about a software engineering team, that includes a manager, engineers interns. The app showcases OOP and TDD using Jest.",
     "deployedURL": "https://drive.google.com/file/d/1BWwmQdLfkAXyHmobS2018yoWewx1jocV/view",
     "githubRepo": "https://github.com/ladykays/team-profile-generator",
     "image": "./assets/images/team-generator.png"
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "title": "JavaScript Fundermentals Quiz",
-    "description": "This quiz app tests users' knowledge of JavaScript fundamentals with timed multiple choice questions. It stores high scores to local storage and features a responsive UI powered by dynamically updated HTML and CSS, all running in a browser.",
+    "description": "This quiz app tests users' knowledge of JavaScript fundamentals with timed multiple choice questions. It stores high scores to local storage and features a responsive UI powered by dynamically updated HTML and CSS.",
     "deployedURL": "https://ladykays.github.io/javascript-fundermentals-quiz",
     "githubRepo": "https://github.com/ladykays/javascript-fundermentals-quiz",
     "image": "./assets/images/quiz.png"
