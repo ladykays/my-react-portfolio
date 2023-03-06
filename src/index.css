@@ -1,3 +1,8 @@
+:root {
+  --burgundy: #730641;
+  --hover: #6ca5b6
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
