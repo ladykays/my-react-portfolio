@@ -33,7 +33,7 @@ function Project(props) {
 
   const handleRepoBtnMouseOut = () => {
     setIsRepoBtnHovered(false);
-  };
+  }; 
 
   return (
     <Col>

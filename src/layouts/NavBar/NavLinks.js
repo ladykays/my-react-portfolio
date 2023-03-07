@@ -8,7 +8,7 @@ import "./style.css";
 
 function NavLinks(props) {
   return (
-    <Navbar collapseOnSelect fixed="top" expand="md" bg="dark" variant="dark">
+    <Navbar className="" collapseOnSelect fixed="top" expand="md" bg="light" variant="light">
       <Container fluid>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

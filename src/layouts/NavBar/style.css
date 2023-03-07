@@ -3,6 +3,6 @@
   color: purple
 } */
 
-.nav-link.active {
-  background-color: lightseagreen;
-  }
+.navbar-light .navbar-nav .nav-link {
+  color: #730641;
+}
