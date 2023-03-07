@@ -129,7 +129,7 @@ function Contact() {
             </a>
           </p>
           <p>
-            <a href="#" className="connect">
+            <a href="https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/" className="connect">
               <i className="fa-brands fa-linkedin"></i> Linkdin
             </a>
           </p>
