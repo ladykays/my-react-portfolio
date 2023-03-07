@@ -5,7 +5,7 @@
 }
 .hero-section {
   /* background: url("/src/assets/images/hero-image.jpg") 50% no-repeat; */
-  background-color: #dee4e6;
+  background-color: var(--lightGray);
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -22,13 +22,14 @@
           justify-content: center;
 }
 
-/* .hero-section .hero-section-text {
+ /* .hero-section .hero-section-text {
   color: #fefefe;
-   text-shadow: 1px 1px 2px #0a0a0a; 
-} */
+   text-shadow: 1px 1px 2px #0a0a0a;   
+}  */
 
 .other {
-  height: 60vh;
+  height: 20vh;
+  /* background: url("/src/assets/images/banner.png") 50% no-repeat; */
 }
 
 .welcome {
@@ -41,11 +42,11 @@
 section a.btn{
   margin-top: 2rem;
   background-color: var(--burgundy);
-  color: #dee4e6;
+  color: var(--lightGray);
 }
 
 section a.btn:hover {
-  background-color: var(--gray);
+  background-color: var(--buttonHoverGray);
   color: var(--burgundy);
 }
 

@@ -1,6 +1,8 @@
 :root {
   --burgundy: #730641;
-  --hover: #6ca5b6;
+  --lightBlue: #6ca5b6;
+  --lightGray: #dee4e6;
+  --buttonHoverGray: #b7bec0;
 }
 
 body {

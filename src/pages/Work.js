@@ -8,9 +8,12 @@ import Footer from "../layouts/Footer/Footer";
 function Work() {
   return (
     <>
-      <h1>Work</h1>
-      <ProjectGallery />
-      <Footer />
+      <section className="container">
+        <h1 className="text-center heading">Work</h1>
+        <ProjectGallery />
+        <Footer />
+      </section>
+      
 
     </>
   )
