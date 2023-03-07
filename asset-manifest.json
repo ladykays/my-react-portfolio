@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.07a6912e.css",
+    "main.js": "/my-react-portfolio/static/js/main.cfdbd430.js",
+    "static/media/banner2.jpg": "/my-react-portfolio/static/media/banner2.db917c0c2cf398299408.jpg",
+    "static/media/profile.png": "/my-react-portfolio/static/media/profile.6dcc22836b60d1896d1d.png",
+    "static/media/Front-End Web Development CV.pdf": "/my-react-portfolio/static/media/Front-End Web Development CV.36dcac83dae5a9bb2ebb.pdf",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.07a6912e.css.map": "/my-react-portfolio/static/css/main.07a6912e.css.map",
+    "main.cfdbd430.js.map": "/my-react-portfolio/static/js/main.cfdbd430.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a6912e.css",
+    "static/js/main.cfdbd430.js"
+  ]
+}
