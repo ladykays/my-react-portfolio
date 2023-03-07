@@ -1,6 +1,8 @@
 # my-react-portfolio
 
 ## Credits
+* https://forum.freecodecamp.org/t/how-to-change-bootstrap-navbar-link-color/476864
+
 * https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors
 
 * Folder Structure: https://www.xenonstack.com/insights/reactjs-project-structure
