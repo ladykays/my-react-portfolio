@@ -1,6 +1,6 @@
 //my custom style for the footer section
 //import Card from 'react-bootstrap/Card'
-import { useState } from "react";
+//import { useState } from "react";
 import "./footer.css";
 
 function Footer() {
@@ -24,7 +24,7 @@ function Footer() {
           </a>
         </li>
         <li className="ms-3">
-          <a href="href://" className="connect text-muted">
+          <a href="https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/" className="connect text-muted">
             <i className="fa-brands fa-linkedin fa"></i> 
           </a>
         </li>

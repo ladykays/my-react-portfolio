@@ -24,8 +24,9 @@
 }  */
 
 .other {
-  height: 20vh;
-  /* background: url("/src/assets/images/banner.png") 50% no-repeat; */
+  height: 60vh;
+  background: url("/src/assets/images/banner2.jpg")50% no-repeat;
+  width: 100%;
 }
 
 .welcome {
