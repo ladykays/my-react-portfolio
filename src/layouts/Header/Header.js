@@ -17,9 +17,10 @@ function Header() {
       {/* If on the homepage, load the hero section with text */}
       {isHomePage && (
       <section className="hero-section">
+        <img src="https://placehold.jp/150x150.png" alt="N. K. Siokwu" className="profile-pic" />
         <h1 className = "hero-section-text welcome">Hello...</h1>
         <h4 className = "hero-section-text intro ">My name is N. K. Siokwu. I am a Front-End Web Developer from England. </h4>
-        <a href="/work" className="button warning">View My Portfolio</a>
+        <a href="/work" className="btn cta-warning shadow mr-2 ">View My Portfolio</a>
       </section>
       )}
       {/* If not on the homepage, load the hero section without text */}

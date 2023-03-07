@@ -1,7 +1,13 @@
+:root {
+  --burgundy: #730641;
+  --lightBlue: #6ca5b6;
+  --gray: #b7bec0;
+}
 .hero-section {
-  background: url("/src/assets/images/hero-image.jpg") 50% no-repeat;
+  /* background: url("/src/assets/images/hero-image.jpg") 50% no-repeat; */
+  background-color: #dee4e6;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -16,14 +22,38 @@
           justify-content: center;
 }
 
-.hero-section .hero-section-text {
+/* .hero-section .hero-section-text {
   color: #fefefe;
-  text-shadow: 1px 1px 2px #0a0a0a;
-}
+   text-shadow: 1px 1px 2px #0a0a0a; 
+} */
 
 .other {
   height: 60vh;
 }
+
+.welcome {
+  color: var(--burgundy);
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+section a.btn{
+  margin-top: 2rem;
+  background-color: var(--burgundy);
+  color: #dee4e6;
+}
+
+section a.btn:hover {
+  background-color: var(--gray);
+  color: var(--burgundy);
+}
+
+.profile-pic {
+  border: 3px solid var(--burgundy);
+  border-radius: 50%;
+}
+
 
 
 
