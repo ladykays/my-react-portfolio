@@ -4,11 +4,11 @@ html, body, #root {
 /* Styles for the About page */
 .container{
   padding: 2rem;
-  width: 100%;
-  
+  width: 100%;  
 }
-.callout {
-  border: none;
+
+.heading {
+  color: var(--burgundy);
 }
 
 /* Styles for the contact page */

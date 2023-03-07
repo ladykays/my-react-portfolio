@@ -24,7 +24,8 @@ function Header() {
       </section>
       )}
       {/* If not on the homepage, load the hero section without text */}
-      {!isHomePage && <div className="hero-section other"></div>}
+      {!isHomePage && <div className="hero-section other">
+        </div>}
     </>  
   )
 }

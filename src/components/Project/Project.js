@@ -46,8 +46,8 @@ function Project(props) {
             <Button
               className="btn projectBtn deployedBtn"
               style={{
-                backgroundColor: isDeployedBtnHovered ? "#067338" : "#730641",
-                color: "white",
+                backgroundColor: isDeployedBtnHovered ? "#b7bec0" : "#730641",
+                color: isDeployedBtnHovered ? "#730641" : "#b7bec0",
                 margin: "0 10px",
                 border: "none",
               }}
@@ -63,8 +63,8 @@ function Project(props) {
             <Button
               className="btn projectBtn repoBtn"
               style={{
-                backgroundColor: isRepoBtnHovered ? "#067338" : "#730641",
-                color: "white",
+                backgroundColor: isRepoBtnHovered ? "#b7bec0" : "#730641",
+                color: isRepoBtnHovered ? "#730641" : "#b7bec0",
                 margin: "0 10px",
                 border: "none",
               }}
