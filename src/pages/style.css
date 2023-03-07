@@ -40,13 +40,20 @@ form > * {
   outline: none; /* so as not to get a blue outline when we click on the input fields */
 }
 input.btn {
-  background-color: lightseagreen;
+  background-color: var(--burgundy);
+  color: var(--lightGray);
   cursor:grab,
 }
 
+div p a {
+  text-decoration: none;
+  /* color: #212529; */
+  color: var(--burgundy);
+}
+
 input.btn:hover {
-  background-color: rgb(108, 230, 224);
-  color: black;
+  background-color: var(--buttonHoverGray);
+  color: var(--burgundy);
 }
 .connect {
   text-decoration: none;

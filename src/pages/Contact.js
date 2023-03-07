@@ -116,7 +116,7 @@ function Contact() {
         </form>
         
 
-        <div className="callout small" style={styles.callout}>
+        <div className="connectList">
           <h3>Connect with me...</h3>
           <p>
             <a href="mailto: ladykerrion@yahoo.com" className="connect">
