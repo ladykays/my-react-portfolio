@@ -1,8 +1,4 @@
-:root {
-  --burgundy: #730641;
-  --lightBlue: #6ca5b6;
-  --gray: #b7bec0;
-}
+
 .hero-section {
   /* background: url("/src/assets/images/hero-image.jpg") 50% no-repeat; */
   background-color: var(--lightGray);
