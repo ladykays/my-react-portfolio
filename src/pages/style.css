@@ -1,7 +1,7 @@
 html, body, #root {
   height: 100%;
 }
-/* Styles for the About page */
+
 .container{
   padding: 2rem;
   width: 100%;  
@@ -9,6 +9,19 @@ html, body, #root {
 
 .heading {
   color: var(--burgundy);
+  padding: 2rem 0;
+}
+
+/* Styles for the about page */
+.subheading {
+  margin-top: 3rem;
+}
+.tools {
+  font-size: 50px;
+  color: var(--burgundy);
+  padding: 2rem;
+  text-align: center;
+  width: 30%;
 }
 
 /* Styles for the contact page */
