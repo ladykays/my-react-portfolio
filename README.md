@@ -1,4 +1,58 @@
-# Getting Started with Create React App
+# React Portfolio
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+  ## Description
+  This is my personal portfolio page which was created using React and Bootstrap.
+
+  ## Table of Contents
+  * [Technologies](#technologies)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [license](#license)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  * [Tests](#tests)
+  
+ 
+  ## Technologies
+  * CSS  
+  * JavaScript  
+  * Bootstrap  
+  * NPM  
+  * React
+
+  ## Screenshot
+  ![Home Page](.assets/home.png)
+  ![Work Page](.assets/work.png)
+  ![About Page](.assets/about.png)
+  ![Contact Page](.assets/contact.png)
+
+  ## License
+  This project is licensed under the MIT License. [View licence](https://opensource.org/licenses/MIT)
+
+  ## Questions
+  Do you have any questions? Would you like to collaborate on a project?
+  * Checkout my [github](https://github.com/ladykays).
+  * Send me an [email](mailto:ladykerrion@yahoo.com).
+
+
+## Credits
+* https://gist.github.com/jdtdesigns/936839ea2cea6b4d3193b520c750a09b
+
+* https://levelup.gitconnected.com/display-images-in-react-8ff1f5b1cf9a
+
+* https://forum.freecodecamp.org/t/how-to-change-bootstrap-navbar-link-color/476864
+
+* https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors
+
+* Folder Structure: https://www.xenonstack.com/insights/reactjs-project-structure
+
+* Photo by <a href="https://unsplash.com/es/@amayli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Amélie Mourichon</a> on <a href="https://unsplash.com/wallpapers/design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Photo by <a href="https://unsplash.com/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Domenico Loia</a> on <a href="https://unsplash.com/photos/EhTcC9sYXsw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

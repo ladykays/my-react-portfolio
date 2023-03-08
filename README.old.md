@@ -1,4 +1,5 @@
-# my-react-portfolio
+# React Portfolio
+This is my personal portfolio page which was created using React and Bootstrap.
 
 ## Credits
 * https://gist.github.com/jdtdesigns/936839ea2cea6b4d3193b520c750a09b
