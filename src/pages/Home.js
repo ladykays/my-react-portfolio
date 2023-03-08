@@ -13,7 +13,7 @@ function Home() {
       <h1 className = "hero-section-text welcome">Hello...</h1>
       <h4 className = "hero-section-text intro ">My name is N. K. Siokwu. I am a Front-End Web Developer from England. </h4>
       <div className = "cta-button-container d-flex">
-        <a href="/work" className="btn cta-warning shadow" style={{marginRight: "10px"}}>View My Portfolio</a>
+        <a href="./work" className="btn cta-warning shadow" style={{marginRight: "10px"}}>View My Portfolio</a>
         <a href={resume} className="btn cta-warning shadow mr-2 ">View My Resume</a>
       </div>
     </section>
