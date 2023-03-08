@@ -1,7 +1,10 @@
 # my-react-portfolio
 
 ## Credits
+* https://gist.github.com/jdtdesigns/936839ea2cea6b4d3193b520c750a09b
+
 * https://levelup.gitconnected.com/display-images-in-react-8ff1f5b1cf9a
+
 * https://forum.freecodecamp.org/t/how-to-change-bootstrap-navbar-link-color/476864
 
 * https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors
