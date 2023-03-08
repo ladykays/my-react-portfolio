@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.038a36d2.css",
-    "main.js": "/my-react-portfolio/static/js/main.238d9e3e.js",
-    "static/media/banner2.jpg": "/my-react-portfolio/static/media/banner2.db917c0c2cf398299408.jpg",
-    "static/media/weather-pourcast.png": "/my-react-portfolio/static/media/weather-pourcast.d60fca3589b5c4d6f073.png",
-    "static/media/profile.png": "/my-react-portfolio/static/media/profile.6dcc22836b60d1896d1d.png",
-    "static/media/Front-End Web Development CV.pdf": "/my-react-portfolio/static/media/Front-End Web Development CV.36dcac83dae5a9bb2ebb.pdf",
-    "static/media/password-generator.png": "/my-react-portfolio/static/media/password-generator.a85ecf3a0203fa5cea01.png",
-    "static/media/weather-dashboard.png": "/my-react-portfolio/static/media/weather-dashboard.4daf3b025d07f1374125.png",
-    "static/media/team-generator.png": "/my-react-portfolio/static/media/team-generator.abbf5c05e9033c71e2e4.png",
-    "static/media/quiz.png": "/my-react-portfolio/static/media/quiz.c5e4bed2b82fa6bf2cc7.png",
-    "static/media/work-day.png": "/my-react-portfolio/static/media/work-day.5235ff2d2052787747c1.png",
-    "index.html": "/my-react-portfolio/index.html",
-    "main.038a36d2.css.map": "/my-react-portfolio/static/css/main.038a36d2.css.map",
-    "main.238d9e3e.js.map": "/my-react-portfolio/static/js/main.238d9e3e.js.map"
+    "main.css": "./static/css/main.ed51335c.css",
+    "main.js": "./static/js/main.496db0ad.js",
+    "static/media/banner2.jpg": "./static/media/banner2.db917c0c2cf398299408.jpg",
+    "static/media/weather-pourcast.png": "./static/media/weather-pourcast.d60fca3589b5c4d6f073.png",
+    "static/media/profile.png": "./static/media/profile.6dcc22836b60d1896d1d.png",
+    "static/media/Front-End Web Development CV.pdf": "./static/media/Front-End Web Development CV.36dcac83dae5a9bb2ebb.pdf",
+    "static/media/password-generator.png": "./static/media/password-generator.a85ecf3a0203fa5cea01.png",
+    "static/media/weather-dashboard.png": "./static/media/weather-dashboard.4daf3b025d07f1374125.png",
+    "static/media/team-generator.png": "./static/media/team-generator.abbf5c05e9033c71e2e4.png",
+    "static/media/quiz.png": "./static/media/quiz.c5e4bed2b82fa6bf2cc7.png",
+    "static/media/work-day.png": "./static/media/work-day.5235ff2d2052787747c1.png",
+    "index.html": "./index.html",
+    "main.ed51335c.css.map": "./static/css/main.ed51335c.css.map",
+    "main.496db0ad.js.map": "./static/js/main.496db0ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.038a36d2.css",
-    "static/js/main.238d9e3e.js"
+    "static/css/main.ed51335c.css",
+    "static/js/main.496db0ad.js"
   ]
 }
