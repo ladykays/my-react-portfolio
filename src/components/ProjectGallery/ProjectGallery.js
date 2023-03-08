@@ -2,8 +2,15 @@ import React, { Component } from "react";
 import Project from "../Project/Project.js";
 import projects from "./projects.json";
 import Row from 'react-bootstrap/Row';
+import "../../assets/images/password-generator.png";
+import "../../assets/images/quiz.png";
+import "../../assets/images/team-generator.png";
+import "../../assets/images/weather-dashboard.png";
+import "../../assets/images/weather-pourcast.png";
+import "../../assets/images/work-day.png";
 
 class ProjectGallery extends Component {
+  
   render() {
     return (
       <section className="container">
