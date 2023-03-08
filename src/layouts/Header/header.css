@@ -1,5 +1,5 @@
 
-.hero-section {
+div.hero-section {
   /* background: url("/src/assets/images/hero-image.jpg") 50% no-repeat; */
   background-color: var(--lightGray);
   background-size: cover;

@@ -1,5 +1,5 @@
 //import { Callout } from "react-foundation";
-import Footer from "../layouts/Footer/Footer";
+//import Footer from "../layouts/Footer/Footer";
 import { useState } from "react"; 
 import "./style.css";
 
@@ -137,7 +137,7 @@ function Contact() {
       </div> 
       {success && <p style={styles.success}>Form submitted successfully!</p>}
 
-      <Footer />
+      
     </> 
   )
 }

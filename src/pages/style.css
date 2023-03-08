@@ -3,13 +3,63 @@ html, body, #root {
 }
 
 .container{
-  padding: 2rem;
+  padding: 1rem;
   width: 100%;  
 }
 
 .heading {
   color: var(--burgundy);
   padding: 2rem 0;
+}
+
+/* Styles for the home page */
+section.hero-section {
+  /* background: url("/src/assets/images/hero-image.jpg") 50% no-repeat;  */
+  width: 100%;
+  background-color: var(--lightGray);
+  background-size: cover;
+  height: 70vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ /* .hero-section .hero-section-text {
+  color: #fefefe;
+   text-shadow: 1px 1px 2px #0a0a0a;   
+}  */
+
+.welcome {
+  color: var(--burgundy);
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+section a.btn{
+  margin-top: 2rem;
+  background-color: var(--burgundy);
+  color: var(--lightGray);
+}
+
+section a.btn:hover {
+  background-color: var(--buttonHoverGray);
+  color: var(--burgundy);
+}
+
+.profile-pic {
+  border: 3px solid var(--burgundy);
+  border-radius: 50%;
+  width: 150px;
 }
 
 /* Styles for the about page */
