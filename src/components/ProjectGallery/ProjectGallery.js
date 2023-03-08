@@ -7,7 +7,7 @@ import "../../assets/images/quiz.png";
 import "../../assets/images/team-generator.png";
 import "../../assets/images/weather-dashboard.png";
 import "../../assets/images/weather-pourcast.png";
-import "../../assets/images/work-day.png";
+import "../../assets/images/work-day.png"; 
 
 class ProjectGallery extends Component {
   
