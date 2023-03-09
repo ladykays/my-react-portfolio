@@ -32,6 +32,8 @@ function Footer() {
             <li className="ms-3">
               <a
                 href="https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/"
+                target="_blank"
+                rel="noreferrer"
                 className="connect text-muted"
               >
                 <i className="fa-brands fa-linkedin fa"></i>
