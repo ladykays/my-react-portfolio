@@ -1,6 +1,4 @@
-//import { Callout } from "react-foundation";
-//import Footer from "../layouts/Footer/Footer";
-import { useState } from "react"; 
+import { useState } from "react";
 import "./style.css";
 
 const styles = {
@@ -17,7 +15,7 @@ const styles = {
   callout: {
     width: "40%",
     backgroudColor: "gray",
-    padding: "20px "   
+    padding: "20px ",
   },
   success: {
     textAlign: "center",
@@ -41,7 +39,7 @@ function Contact() {
     setFormData({
       //spread all the previous formdata properties and update/overwrite the current property that the user is typing into
       ...formData,
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value,
     });
     //console.log(event.target.value);
   };
@@ -52,17 +50,17 @@ function Contact() {
     //console.log("Form submitted!");
     const data = JSON.stringify(formData); //converts form data to a string
 
-    fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
+        "Content-Type": "application/json",
+        Accept: "application/json",
       },
-      body: data
+      body: data,
     })
       // When the message succeeds in sending, then this is called
-      .then(res => res.json()) 
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setSuccess(true);
         setFormData({
           ...formData,
@@ -76,45 +74,39 @@ function Contact() {
           setSuccess(false);
         }, 3000);
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   };
 
-  return ( 
+  return (
     <>
       <h1 style={styles.header}>Contact</h1>
 
       <div className="container" style={styles.container}>
         <form onSubmit={handleFormSubmit}>
-          <input 
-            name="name" 
-            value={formData.name} 
-            onChange={handleChange} 
-            type="text" 
-            placeholder="Please enter your Name" 
+          <input
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            type="text"
+            placeholder="Please enter your Name"
           />
-          <input 
-            name="email" 
+          <input
+            name="email"
             value={formData.email}
-            onChange={handleChange} 
-            type="text" 
-            placeholder="Enter your Email Address" 
+            onChange={handleChange}
+            type="text"
+            placeholder="Enter your Email Address"
           />
-          <textarea 
-            name="message" 
+          <textarea
+            name="message"
             value={formData.message}
-            onChange={handleChange} 
-            placeholder="Enter your Message..." 
-            cols="30" 
-            rows="10">
-          </textarea>
-          <input 
-            type="submit" 
-            class="button btn" 
-            value="Submit" 
-          />
-
+            onChange={handleChange}
+            placeholder="Enter your Message..."
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="button btn" value="Submit" />
         </form>
-        
 
         <div className="connectList">
           <h3>Connect with me...</h3>
@@ -124,22 +116,28 @@ function Contact() {
             </a>
           </p>
           <p>
-            <a href="https://github.com/ladykays" target="_blank" rel="noreferrer" className="connect">
+            <a
+              href="https://github.com/ladykays"
+              target="_blank"
+              rel="noreferrer"
+              className="connect"
+            >
               <i className="fa-brands fa-github"></i> GitHub
             </a>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/" className="connect">
+            <a
+              href="https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/"
+              className="connect"
+            >
               <i className="fa-brands fa-linkedin"></i> Linkdin
             </a>
           </p>
-        </div> 
-      </div> 
+        </div>
+      </div>
       {success && <p style={styles.success}>Form submitted successfully!</p>}
-
-      
-    </> 
-  )
+    </>
+  );
 }
 
 export default Contact;

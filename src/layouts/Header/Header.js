@@ -10,9 +10,7 @@ function Header() {
   //const location = useLocation();
   //const isHomePage = location.pathname === "/";
 
-  return (
-      <NavBar />
-  );
-};
+  return <NavBar />;
+}
 
 export default Header;

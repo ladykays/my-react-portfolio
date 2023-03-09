@@ -4,9 +4,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
-import "./project.css";
 import "../../index.css";
-
 
 const styles = {
   btnContainer: {
@@ -34,7 +32,7 @@ function Project(props) {
 
   const handleRepoBtnMouseOut = () => {
     setIsRepoBtnHovered(false);
-  }; 
+  };
 
   return (
     <Col>
@@ -84,6 +82,5 @@ function Project(props) {
     </Col>
   );
 }
-
 
 export default Project;

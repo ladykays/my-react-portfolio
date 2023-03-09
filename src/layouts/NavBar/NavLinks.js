@@ -1,4 +1,3 @@
-
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,7 +6,14 @@ import "./style.css";
 
 function NavLinks() {
   return (
-    <Navbar className="" collapseOnSelect fixed="top" expand="md" bg="light" variant="light">
+    <Navbar
+      className=""
+      collapseOnSelect
+      fixed="top"
+      expand="md"
+      bg="light"
+      variant="light"
+    >
       <Container fluid>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -21,7 +27,11 @@ function NavLinks() {
             <NavLink to="/about" className="nav-link" activeClassName="active">
               About
             </NavLink>
-            <NavLink to="/contact" className="nav-link" activeClassName="active">
+            <NavLink
+              to="/contact"
+              className="nav-link"
+              activeClassName="active"
+            >
               Contact
             </NavLink>
           </Nav>
