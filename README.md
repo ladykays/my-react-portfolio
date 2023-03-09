@@ -6,14 +6,13 @@
 
   ## Table of Contents
   * [Technologies](#technologies)
-  * [Installation](#installation)
-  * [Usage](#usage)
+  * [Screenshots](#screenshot)
+  * [Deployed Site](#deployed)
   * [license](#license)
-  * [Contributing](#contributing)
   * [Questions](#questions)
-  * [Tests](#tests)
-  
- 
+  * [Credits](#credits)
+  * [Getting Started with React Apps](#getting)
+
   ## Technologies
   * CSS  
   * JavaScript  
@@ -22,7 +21,7 @@
   * React
 
   ## Screenshot
-  ![Home Page](./public/assets/images/about.png)
+  ![Home Page](./public/assets/images/home.png)
   ![Work Page](./public/assets/images/work.png)
   ![About Page](./public/assets/images/about.png)
   ![Contact Page](./public/assets/images/contact.png)
