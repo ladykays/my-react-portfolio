@@ -1,7 +1,7 @@
 import "./style.css";
 import profile from "../assets/images/profile.png";
 import resume from "../assets/other/Front-End Web Development CV.pdf";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,13 +13,13 @@ function Home() {
           My name is N. K. Siokwu. I am a Front-End Web Developer from England.{" "}
         </h4>
         <div className="cta-button-container d-flex">
-          <Link
+          {/* <Link
             to="/work"
             className="btn cta-warning shadow"
             style={{ marginRight: "10px" }}
           >
             View My Portfolio
-          </Link>
+          </Link> */}
           <a href={resume} className="btn cta-warning shadow mr-2 ">
             View My Resume
           </a>
