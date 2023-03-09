@@ -22,14 +22,14 @@
   * React
 
   ## Screenshot
-  ![Home Page](.src/assets/images/home.png)
-  ![Work Page](.src/assets/images/work.png)
-  ![About Page](.src/assets/images/about.png)
-  ![Contact Page](.src/assets/images/contact.png)
+  ![Home Page](./public/assets/images/about.png)
+  ![Work Page](./public/assets/images/work.png)
+  ![About Page](./public/assets/images/about.png)
+  ![Contact Page](./public/assets/images/contact.png)
 
   ## Deployed Site
   https://ladykays.github.io/my-react-portfolio/
-  
+
   ## License
   This project is licensed under the MIT License. [View licence](https://opensource.org/licenses/MIT)
 
