@@ -7,11 +7,13 @@
   ## Table of Contents
   * [Technologies](#technologies)
   * [Screenshots](#screenshot)
-  * [Deployed Site](#deployed)
-  * [license](#license)
+  * [Deployed Site](#deployed-site)
+  * [License](#license)
   * [Questions](#questions)
   * [Credits](#credits)
-  * [Getting Started with React Apps](#getting)
+  * [Getting Started with React Apps](#getting-started-with-react-apps)
+  * [Available Scripts](#available-scripts)
+  * [Learn More](#learn-more)
 
   ## Technologies
   * CSS  
