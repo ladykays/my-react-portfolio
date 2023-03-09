@@ -11,7 +11,7 @@
   * [License](#license)
   * [Questions](#questions)
   * [Credits](#credits)
-  * [Getting Started with React Apps](#getting-started-with-react-apps)
+  * [Getting Started with React App](#getting-started-with-react-app)
   * [Available Scripts](#available-scripts)
   * [Learn More](#learn-more)
 
